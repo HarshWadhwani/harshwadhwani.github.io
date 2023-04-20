@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+    color: black;
+    font-size: 24px;
+}
+
+img {
+    width: 300px;
+    padding: 50px 0 0 50px;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+  }
+
+td:empty {
+    border: none;
+}
+
+table tr:first-child td {
+    border-top: none;
+  }
+  
+  table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  table tr td:first-child {
+    border-left: none;
+  }
+  
+  table tr td:last-child {
+    border-right: none;
+  }
+
+/*.crossword-box {
+    text-align: center;
+    border: 1px solid;
+    padding: 2px;
+    margin: 0;
+}*/
