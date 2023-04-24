@@ -1,46 +1,42 @@
 body {
-    background-color: beige;
-    color: black;
-    font-size: 24px;
+    background-color: #F5F2E8;
+    font-size: 32px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+
+.first-section {
+  text-align: center;
+  margin-top: 100px;
 }
 
 img {
-    width: 300px;
-    padding: 50px 0 0 50px;
+    width: 550px;
+    height: 600px;
 }
 
 table {
     border: none;
     border-collapse: collapse;
+    margin: auto;
 }
 
 td {
     border: 1px solid black;
+    background-color: white;
+    width: 47px;
+    margin: 0;
   }
 
 td:empty {
     border: none;
+    background-color: #F5F2E8;
 }
 
-table tr:first-child td {
-    border-top: none;
-  }
-  
-  table tr:last-child td {
-    border-bottom: none;
-  }
-  
-  table tr td:first-child {
-    border-left: none;
-  }
-  
-  table tr td:last-child {
-    border-right: none;
-  }
+.image-container {
+  padding: 0;
+}
 
-/*.crossword-box {
-    text-align: center;
-    border: 1px solid;
-    padding: 2px;
-    margin: 0;
-}*/
+.crossword-table-container {
+  padding: 0;
+}
